@@ -14,7 +14,7 @@ app.post('/generate-image', async (c) => {
   const { prompt } = await c.req.json()
 
   const replicate = new Replicate({auth: c.env.REPLICATE_API_TOKEN})
-  const model = 'black-forest-labs/flux-schnell'  
+  const model = 'aisha-ai-official/nsfw-flux-dev'  
   const output = await replicate.run(model, {
     input: {
       prompt,
