@@ -70,12 +70,12 @@ const ImageGenerator = () => {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
-        Flux Image Generator
+        Flux NSFW Image Generator
       </h1>
 
       <p className="text-center text-gray-600 mb-8">
         Generate images with{" "}
-        <a href="https://replicate.com/black-forest-labs/flux-schnell" target="_blank" rel="noopener noreferrer" className="text-gray-800 underline">Flux</a> on{" "}
+        <a href="https://replicate.com/aisha-ai-official/nsfw-flux-dev" target="_blank" rel="noopener noreferrer" className="text-gray-800 underline">Flux</a> on{" "}
         <a href="https://replicate.com/" target="_blank" rel="noopener noreferrer" className="text-gray-800 underline">Replicate</a>, and host it on{" "}
         <a href="https://developers.cloudflare.com/workers/" target="_blank" rel="noopener noreferrer" className="text-gray-800 underline">Cloudflare Workers</a>.
       </p>
